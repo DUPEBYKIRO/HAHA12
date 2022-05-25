@@ -1,0 +1,8 @@
+print('kiro invoke')
+local invoke = game:HttpGet("https://pastebin.com/jyvmETeK")
+local troll = game:HttpGet("https://pastebin.com/ABYW4DjB")
+ 
+while task.wait(3.6) do
+workspace.__THINGS.__REMOTES.MAIN:FireServer("b", invoke)
+workspace.__THINGS.__REMOTES.MAIN:FireServer("b", troll)
+end
